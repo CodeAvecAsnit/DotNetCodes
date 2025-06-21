@@ -1,6 +1,0 @@
-@DBTest_HostAddress = http://localhost:5003
-
-GET {{DBTest_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
