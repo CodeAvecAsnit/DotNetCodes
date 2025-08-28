@@ -1,0 +1,10 @@
+@page
+@model WebApplication1.Models.ResultModel
+@{
+    ViewData["Title"] = "Interest Result";
+}
+
+<h1>Interest Result</h1>
+<h3>Simple Interest: @Model.Interest</h3>
+
+<a asp-page="/Index">Calculate Again</a>

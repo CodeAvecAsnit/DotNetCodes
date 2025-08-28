@@ -1,0 +1,23 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Simple Interest Calculator";
+}
+
+<h1>Simple Interest Calculator</h1>
+
+<form method="post" asp-page="Result">
+    <div>
+        <label>Principal Amount:</label>
+        <input type="number" step="0.01" name="Principal" required />
+    </div>
+    <div>
+        <label>Rate (%):</label>
+        <input type="number" step="0.01" name="Rate" required />
+    </div>
+    <div>
+        <label>Time (years):</label>
+        <input type="number" name="Time" required />
+    </div>
+    <button type="submit">Calculate</button>
+</form>
